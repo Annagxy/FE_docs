@@ -50,11 +50,9 @@ offset默认情况下不用设置。但如果你不想垂直水平居中，你�
 
 信息框模式时，btn默认是一个确认按钮，其它层类型则默认不显示，加载层和tips层则无效。当您只想自定义一个按钮时，你可以_btn: '我知道了'_，当你要定义两个按钮时，你可以_btn: \['yes', 'no'\]_。当然，你也可以定义更多按钮，比如：_btn: \['按钮1', '按钮2', '按钮3', …\]_，按钮1的回调是yes，而从按钮2开始，则回调为btn2: function\(\){}，以此类推。如：
 
-
-
 ```js
 layer.open({  
-  
+
   content: 'test'
 
   ,btn: ['按钮一', '按钮二', '按钮三']
@@ -88,8 +86,8 @@ layer.open({
     //return false 开启该代码可禁止点击该按钮关闭
 
   }
-  
-});  
+
+});
 ```
 
 ### 8.btnAlign-按钮排列
@@ -110,23 +108,25 @@ layer.open({
 
 layer提供了两种风格的关闭按钮，可通过配置_1_和_2_来展示，如果不显示，则_closeBtn: 0_
 
-
-
 ### 10.更多属性详见layer.js的API[http://www.layui.com/doc/modules/layer.html\#type官网API](#)
-
-
 
 ## EXAMPLE
 
-layer.open\({
 
-	  type: 1,
 
-	  skin: 'layui-layer-rim', //加上边框
+```
+ layer.open({
+  
+    type: 1,
 
-	  area: \['420px', '240px'\], //宽高
+    skin: 'layui-layer-rim', //加上边框
 
-	  content: 'html内容'
+    area: \['420px', '240px'\], //宽高
 
-}\);
+    content: 'html内容'
+  
+ }); 
+```
+
+
 
