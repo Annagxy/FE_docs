@@ -16,4 +16,5 @@
   * [微信分享](api-docs/wx-share.md)
   * [积分商城](api-docs/shop.md)
   * [scheme](api-docs/duan-xin-huan-xing-app.md)
+  * [layer弹层](api-docs/layerdan-ceng.md)
 
