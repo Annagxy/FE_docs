@@ -42,7 +42,7 @@ skin不仅允许你传入layer内置的样式class名，还可以传入您自定
 
 类型：String/Array，默认：垂直水平居中
 
-offset默认情况下不用设置。但如果你不想垂直水平居中，你还可以进行以下赋值，具体见http://www.layui.com/doc/modules/layer.html\#type官网API
+offset默认情况下不用设置。但如果你不想垂直水平居中，你还可以进行以下赋值，具体见[http://www.layui.com/doc/modules/layer.html\#type官网API](http://www.layui.com/doc/modules/layer.html#type官网API)
 
 ### 7.btn - 按钮
 
@@ -50,49 +50,83 @@ offset默认情况下不用设置。但如果你不想垂直水平居中，你�
 
 信息框模式时，btn默认是一个确认按钮，其它层类型则默认不显示，加载层和tips层则无效。当您只想自定义一个按钮时，你可以_btn: '我知道了'_，当你要定义两个按钮时，你可以_btn: \['yes', 'no'\]_。当然，你也可以定义更多按钮，比如：_btn: \['按钮1', '按钮2', '按钮3', …\]_，按钮1的回调是yes，而从按钮2开始，则回调为btn2: function\(\){}，以此类推。如：
 
- layer.open\({
 
-	  content: 'test'
 
-	  ,btn: \['按钮一', '按钮二', '按钮三'\]
+```js
+layer.open({  
+  
+  content: 'test'
 
-	  ,yes: function\(index, layero\){
+  ,btn: ['按钮一', '按钮二', '按钮三']
 
-	    //按钮【按钮一】的回调
+  ,yes: function(index, layero){
 
-	  }
+    //按钮【按钮一】的回调
 
-	  ,btn2: function\(index, layero\){
+  }
 
-	    //按钮【按钮二】的回调
+  ,btn2: function(index, layero){
 
-	    
+    //按钮【按钮二】的回调
 
-	    //return false 开启该代码可禁止点击该按钮关闭
+    //return false 开启该代码可禁止点击该按钮关闭
 
-	  }
+  }
 
-	  ,btn3: function\(index, layero\){
+  ,btn3: function(index, layero){
 
-	    //按钮【按钮三】的回调
+    //按钮【按钮三】的回调
 
-	    
+    //return false 开启该代码可禁止点击该按钮关闭
 
-	    //return false 开启该代码可禁止点击该按钮关闭
+  }
 
-	  }
+  ,cancel: function(){ 
 
-	  ,cancel: function\(\){ 
+    //右上角关闭回调
 
-	    //右上角关闭回调
+    //return false 开启该代码可禁止点击该按钮关闭
 
-	    
+  }
+  
+});  
+```
 
-	    //return false 开启该代码可禁止点击该按钮关闭
+### 8.btnAlign-按钮排列
 
-	  }
+类型：String，默认：r
+
+你可以快捷定义按钮的排列位置，btnAlign的默认值为r，即右对齐。该参数可支持的赋值如下：
+
+| 值 | 备注 |
+| :--- | :--- |
+| btnAlign:'l' | 按钮左对齐 |
+| btnAlign:'c' | 按钮居中对齐 |
+| btnAlign:'r' | 按钮右对齐。默认方式 |
+
+### 9.closeBtn-关闭按钮
+
+类型：String/Boolean，默认：1
+
+layer提供了两种风格的关闭按钮，可通过配置_1_和_2_来展示，如果不显示，则_closeBtn: 0_
+
+
+
+### 10.更多属性详见layer.js的API[http://www.layui.com/doc/modules/layer.html\#type官网API](#)
+
+
+
+## EXAMPLE
+
+layer.open\({
+
+	  type: 1,
+
+	  skin: 'layui-layer-rim', //加上边框
+
+	  area: \['420px', '240px'\], //宽高
+
+	  content: 'html内容'
 
 }\);
-
-
 
