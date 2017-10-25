@@ -16,11 +16,9 @@
   * [微信分享](api-docs/wx-share.md)
   * [积分商城](api-docs/shop.md)
   * [scheme](api-docs/duan-xin-huan-xing-app.md)
-<<<<<<< HEAD
   * [layer弹层](api-docs/layerdan-ceng.md)
-=======
 * [App-h5](app-h5.md)
   * [catalogue](app-h5/catalogue.md)
 
->>>>>>> f77e5f640bf60ab162ea483c003e6c26bc117b0c
+
 
