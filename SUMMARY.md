@@ -17,8 +17,7 @@
   * [积分商城](api-docs/shop.md)
   * [scheme](api-docs/duan-xin-huan-xing-app.md)
   * [layer弹层](api-docs/layerdan-ceng.md)
+  * [域名地址](api-docs/xiang-mu-lu-jing-pei-zhi.md)
 * [App-h5](app-h5.md)
   * [catalogue](app-h5/catalogue.md)
-
-
 
