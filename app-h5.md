@@ -1,4 +1,4 @@
-# App-H5相关
+* [ ] # App-H5相关
 
 ## App-webview目录
 
@@ -69,10 +69,7 @@
 | 存钱罐协议 | [https://www.yonglibao.com/lisence/saving\_pot.protocol.html](https://www.yonglibao.com/lisence/saving_pot.protocol.html) |
 | 永利宝网站服务协议 | [https://www.yonglibao.com/lisence/service.protocol.html](https://www.yonglibao.com/lisence/service.protocol.html) |
 | 新浪支付服务使用协议 | [https://www.yonglibao.com/lisence/sina\_service.protocol.html](https://www.yonglibao.com/lisence/sina_service.protocol.html) |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| 新手注册送满返券和体验金券 | [https://www.yonglibao.com/event/2017/freshaward/index.h5.html](https://www.yonglibao.com/event/2017/freshaward/index.h5.html) |
 
 
 
